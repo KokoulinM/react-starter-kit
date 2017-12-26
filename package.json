@@ -9,7 +9,7 @@
     "react-scripts": "1.0.17"
   },
   "scripts": {
-    "build-dev": "set NODE_ENV=development&& webpack --progress",
+    "build-dev": "set NODE_ENV=development&& webpack-dev-server --progress",
     "build-prod": "set NODE_ENV=production&& webpack --progress"
   },
   "devDependencies": {
